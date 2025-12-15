@@ -4,6 +4,9 @@ import { createMermaidRenderer } from "vitepress-mermaid-renderer";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 	base: '/',
+	sitemap: {
+		hostname: 'https://docs.wgdashboard.com'
+	},
 	title: "WGDashboard Docs",
 	description: "Official Documentation for WGDashboard",
 	head: [
