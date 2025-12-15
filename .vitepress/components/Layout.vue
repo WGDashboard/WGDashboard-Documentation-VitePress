@@ -15,6 +15,11 @@ import GoogleAds from "./googleAds.vue";
 				:slotId="4101477597"
 				style="margin-bottom: 1rem"></GoogleAds>
 		</template>
+		<template #doc-after>
+			<GoogleAds
+				:slotId="7111069725"
+				style="margin-top: 1rem"></GoogleAds>
+		</template>
 	</DefaultTheme.Layout>
 </template>
 
