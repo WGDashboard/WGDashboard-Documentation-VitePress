@@ -2,7 +2,8 @@
 import {onMounted} from "vue";
 
 const loadAds = () => {
-	(window.adsbygoogle || []).push({})
+	let adsbygoogle;
+	(adsbygoogle = window.adsbygoogle || []).push({})
 }
 
 onMounted(() => {
@@ -11,12 +12,15 @@ onMounted(() => {
 </script>
 
 <template>
-	<ins class="adsbygoogle"
-	     style="display:block;"
-	     data-ad-client="ca-pub-2283617751904576"
-	     data-ad-slot="4101477597"
-	     data-ad-format="auto"
-	     data-full-width-responsive="true"></ins>
+	<div>
+		<ins class="adsbygoogle"
+		     style="display:block; margin-bottom: 1rem"
+		     data-ad-client="ca-pub-2283617751904576"
+		     data-ad-slot="4101477597"
+		     data-ad-format="auto"
+		     data-full-width-responsive="true">
+		</ins>
+	</div>
 </template>
 
 <style scoped>
