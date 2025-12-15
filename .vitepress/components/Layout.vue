@@ -10,10 +10,10 @@ import GoogleAds from "./googleAds.vue";
 		<template #nav-bar-content-before>
 			<HitsCounter/>
 		</template>
-		<template #doc-before>
+		<template #aside-outline-after>
 			<GoogleAds
 				:slotId="4101477597"
-				style="margin-bottom: 1rem"></GoogleAds>
+				style="margin-top: 1rem"></GoogleAds>
 		</template>
 		<template #doc-after>
 			<GoogleAds
