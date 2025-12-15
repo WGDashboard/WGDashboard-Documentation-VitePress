@@ -2,7 +2,7 @@
 import {onMounted} from "vue";
 
 const loadAds = () => {
-	(adsbygoogle = window.adsbygoogle || []).push({})
+	(window.adsbygoogle || []).push({})
 }
 
 onMounted(() => {
