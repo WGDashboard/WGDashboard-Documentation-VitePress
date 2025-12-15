@@ -5,7 +5,7 @@ import { createMermaidRenderer } from "vitepress-mermaid-renderer";
 export default defineConfig({
 	base: '/',
 	sitemap: {
-		hostname: 'https://docs.wgdashboard.com'
+		hostname: 'https://docs.wgdashboard.dev'
 	},
 	title: "WGDashboard Docs",
 	description: "Official Documentation for WGDashboard",
