@@ -34,5 +34,5 @@ features:
     - title: Usage
       icon: 🪜
       details: Step 3 - Enjoy WGDashboard
-      link: /usage/
+      link: /Usage
 ---
