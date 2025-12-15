@@ -7,10 +7,21 @@ export default defineConfig({
 	title: "WGDashboard Docs",
 	description: "Official Documentation for WGDashboard",
 	head: [
-		['link', {
-			rel: 'icon',
-			href: 'https://wgdashboard-resources.tor1.cdn.digitaloceanspaces.com/Logos/Logo-2-128x128.png'
-		}]
+		[
+			'link',
+			{
+				rel: 'icon',
+				href: 'https://wgdashboard-resources.tor1.cdn.digitaloceanspaces.com/Logos/Logo-2-128x128.png'
+			}
+		],
+		[
+			'script',
+			{
+				async: true,
+				src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2283617751904576',
+				crossorigin: "anonymous"
+			}
+		]
 	],
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
