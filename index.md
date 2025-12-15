@@ -18,15 +18,15 @@ features:
     - title: What's New
       icon: 📣
       details: What's new in the latest version
-      link: /whatsnew
+      link: /Whats-New
     - title: Demo
       icon: 💻
       details: Try out WGDashboard before install
-      link: /demo
+      link: /Demo
     - title: Requirements
       icon: 📝
       details: Step 1 - Make sure your system meet the requirements
-      link: /requirements
+      link: /Requirements
     - title: Install
       icon: 🛠
       details: Step 2 - Now you can follow me to install WGDashboard
