@@ -3,7 +3,7 @@ import { createMermaidRenderer } from "vitepress-mermaid-renderer";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-
+	base: '/',
 	title: "WGDashboard Docs",
 	description: "Official Documentation for WGDashboard",
 	head: [
