@@ -2,6 +2,15 @@
 import DefaultTheme from 'vitepress/theme';
 import HitsCounter from './hitsCounter.vue'
 import GoogleAds from "./googleAds.vue";
+import {onMounted} from "vue";
+
+onMounted(() => {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-NP81XGWTMP');
+})
 
 </script>
 
