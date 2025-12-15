@@ -4,15 +4,19 @@
 >
 > Starting from `v4.2.0`, WGDashboard support AmneziaWG, but since it has completely installation method than WireGuard, we decided **not to include** in our installation described below, you'll need to follow the AmneziaWG official documentation to install: [Link](https://github.com/amnezia-vpn/amneziawg-linux-kernel-module)
 
-There are 4 options to install WGDashboard
+There are 5 options to install WGDashboard
 
-## Option 1: Host WGDashboard & WireGuard with DigitalOcean
+## Option 1: Docker Image
 
-WGDashboard is now available as a **1-Click** app on DigitalOcean! **[Follow this instruction to host](./hostWGDashboardWithDigitalOcean.md)**
+**Thanks to our awesome [@DaanSelen](https://github.com/DaanSelen)** for creating the **Docker** image. [Follow this instruction to run](/install/Docker.md)
 
-## Option 2: Install WGDashboard with a command
+## Option 2: Host WGDashboard & WireGuard with DigitalOcean
 
-These commands are tested by myself in each operating system listed in [here](/requirements##supported-operating-systems). It contains commands to install WireGuard, Git, Net Tools, and even Python on some OS.
+WGDashboard is now available as a **1-Click** app on DigitalOcean! **[Follow this instruction to host](/install/Host-WGDashboard-With-DigitalOcean.md)**
+
+## Option 3: Install WGDashboard with a command
+
+These commands are tested by myself in each operating system listed in [here](/Requirements#supported-operating-systems). It contains commands to install WireGuard, Git, Net Tools, and even Python on some OS.
 
 ### Ubuntu
 
@@ -182,11 +186,11 @@ sudo sysctl -p /etc/sysctl.conf
 ```
 > Tested by our community member. Thank you!
 
-## Option 3: Install with Proxmox Virtual Environment
+## Option 4: Install with Proxmox Virtual Environment
 
 Please visit this [community script](https://community-scripts.github.io/ProxmoxVE/scripts?id=wireguard) to install.
 
-## Option 4: Manually install WGDashboard
+## Option 5: Manually install WGDashboard
 
 > To ensure a smooth installation process, please make sure you have the following installed:
 > - Python 3.10 or above

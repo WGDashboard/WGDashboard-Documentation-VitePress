@@ -7,15 +7,15 @@ It has been more than 5 months since our last release, and we are happy to annou
 ## 🔥 Breaking News
 
 - We've moved the WGDashboard project from my personal GitHub to the [WGDashboard Organization](https://github.com/WGDashboard)! If you wish, please give us a follow, thank you so much ❤️
-- A new **Client** side dashboard is available, where clients can sign in to view WireGuard Peers assigned to them. For more information, please visit: [](Client-Side-Dashboard.md) ([#720](https://github.com/WGDashboard/WGDashboard/issues/720))
+- A new **Client** side dashboard is available, where clients can sign in to view WireGuard Peers assigned to them. For more information, please visit: [Client Side App](/guides/Client-Side-App) ([#720](https://github.com/WGDashboard/WGDashboard/issues/720))
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/tYCd0zxfYHE?si=M49pDuSSYmKWUb6V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- Plugins are now available for developers who want to extend the use of WGDashboard, for more information, please visit: [](WGDashboard-Plugins.md). **Note: This feature is still under experiment but is available to use**
+- Plugins are now available for developers who want to extend the use of WGDashboard, for more information, please visit: [](/experimental-features/WGDashboard-Plugins.md). **Note: This feature is still under experiment but is available to use**
 
 ## 🎉 New Features
-- With replacing `sqlite3` with `sqlalchemy` in the Python codes, we are now officially support using **SQLite**, **PostgreSQL** or **MySQL** for WGDashboard's database. For more information, please visit [](✂️-Dashboard-Configuration.md#database) ([#734](https://github.com/WGDashboard/WGDashboard/issues/734))
-- You can now set up webhooks to run after peers **created, deleted & updated**. For more information, please visit: [Webhooks](Webhooks.md) ([#669](https://github.com/WGDashboard/WGDashboard/issues/669))
+- With replacing `sqlite3` with `sqlalchemy` in the Python codes, we are now officially support using **SQLite**, **PostgreSQL** or **MySQL** for WGDashboard's database. For more information, please visit [Configure](/Configure#database) ([#734](https://github.com/WGDashboard/WGDashboard/issues/734))
+- You can now set up webhooks to run after peers **created, deleted & updated**. For more information, please visit: [Webhooks](/guides/WebHooks) ([#669](https://github.com/WGDashboard/WGDashboard/issues/669))
 - Custom headers when connect to **Cross Server** ([#491](https://github.com/WGDashboard/WGDashboard/issues/491))
 - Historical network usage, sessions and endpoints for peers are now available under **Details** for each peer ([#620](https://github.com/WGDashboard/WGDashboard/issues/620), [#525](https://github.com/WGDashboard/WGDashboard/issues/525))
 - Added Jinja template in Peer Default Settings ([#843](https://github.com/WGDashboard/WGDashboard/issues/843))

@@ -8,7 +8,7 @@ hero:
     actions:
         - theme: brand
           text: Get Started
-          link: /install/
+          link: /Requirements
 
 features:
     - title: Features
