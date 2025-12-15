@@ -15,7 +15,7 @@ onMounted(() => {
 <template>
 	<div>
 		<ins class="adsbygoogle"
-		     style="display:block; margin-bottom: 1rem; height: 100px; width: 100%"
+		     style="display:block; margin-bottom: 1rem; width: 100%"
 		     data-ad-client="ca-pub-2283617751904576"
 		     :data-ad-slot="slotId"
 		     data-ad-format="auto"
