@@ -20,6 +20,13 @@ import GoogleAds from "./googleAds.vue";
 				:slotId="7111069725"
 				style="margin-top: 1rem"></GoogleAds>
 		</template>
+		<template #sidebar-nav-after>
+			<GoogleAds
+				:slotId="4185238076"
+				style="margin-top: 1rem">
+
+			</GoogleAds>
+		</template>
 	</DefaultTheme.Layout>
 </template>
 
