@@ -10,7 +10,7 @@ For more details on the source-code specific to this Docker image, refer to the 
 
 <br>
 <img 
-  src="https://wgdashboard-resources.tor1.cdn.digitaloceanspaces.com/Logos/Logo-2-Rounded-512x512.png" 
+  src="https://wgdashboard-resources.tor1.cdn.digitaloceanspaces.com/Logos/Logo-2-Rounded-512x512.webp" 
   alt="WG-Dashboard Logo" 
   title="WG-Dashboard Logo"
   style="display: block; margin: 0 auto;"

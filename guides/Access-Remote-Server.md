@@ -1,6 +1,6 @@
 # Access Remote Server
 
-<img src="https://wgdashboard-resources.tor1.cdn.digitaloceanspaces.com/Documentation%20Images/user-guides/access-remote-server.png" style="block" alt=""/>
+<img src="https://wgdashboard-resources.tor1.cdn.digitaloceanspaces.com/Documentation%20Images/user-guides/access-remote-server.webp" style="block" alt=""/>
 
 ## Enable
 
@@ -20,10 +20,10 @@ Once you have address and API key filled in, you will see an indicator beneath t
 
 #### If success
 
-![remote-server-success.png](https://wgdashboard-resources.tor1.cdn.digitaloceanspaces.com/Documentation%20Images/user-guides/remote-server-success.png)
+![remote-server-success.webp](https://wgdashboard-resources.tor1.cdn.digitaloceanspaces.com/Documentation%20Images/user-guides/remote-server-success.webp)
 
 #### If failed
 
 Usually caused by your address can't be connected, or API Key issue.
 
-![remote-server-failed.png](https://wgdashboard-resources.tor1.cdn.digitaloceanspaces.com/Documentation%20Images/user-guides/remote-server-failed.png)
+![remote-server-failed.webp](https://wgdashboard-resources.tor1.cdn.digitaloceanspaces.com/Documentation%20Images/user-guides/remote-server-failed.webp)

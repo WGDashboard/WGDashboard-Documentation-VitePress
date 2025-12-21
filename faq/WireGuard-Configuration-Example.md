@@ -34,8 +34,6 @@ Look for the interface have the IP address you want (`inet`). In my case it woul
 
 Now, we can head to WGDashboard and add a configuration. Feel free to change the **Configuration Name**, **Listen Port** and **IP Address/CIDR** as you want
 
-![](Screenshot 2025-01-19 at 9.29.21 PM.png)
-
 Then we scroll to the bottom and expand **Optional Settings**. To be able to have our peer's traffic go out from the server, we need to setup `iptables` rules. In this example, we will need to set `PostUp` and `PostDown`
 
 ### `PostUp`
@@ -52,8 +50,5 @@ iptables -D FORWARD -i wg0 -j ACCEPT; iptables -D FORWARD -o wg0 -j ACCEPT; ipta
 <note>
 	<b>Please replace <code>wg0</code> in both commands with the Configuration Name you set above, as well as replace `eth0` in both commands with the network interface you got above.</b>
 </note>
-
-In my case it will look like this:
-![](Screenshot 2025-01-19 at 9.36.03 PM.png)
 
 then click **Save**. Now you can create peers and your traffic should go through your server.
