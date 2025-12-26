@@ -1,10 +1,11 @@
 # Install
 
+You can choose one of the 5 following method to install WGDashboard
+
 > **For AmneziaWG Users**
 >
 > Starting from `v4.2.0`, WGDashboard support AmneziaWG, but since it has completely installation method than WireGuard, we decided **not to include** in our installation described below, you'll need to follow the AmneziaWG official documentation to install: [Link](https://github.com/amnezia-vpn/amneziawg-linux-kernel-module)
 
-There are 5 options to install WGDashboard
 
 ## Option 1: Docker Image
 

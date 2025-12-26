@@ -35,7 +35,9 @@ export default defineConfig({
 		]
 	],
 	themeConfig: {
-		// https://vitepress.dev/reference/default-theme-config
+		search: {
+			provider: "local"
+		},
 		sidebar: [
 			{ text: "What's New", link: '/Whats-New' },
 			{
