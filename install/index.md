@@ -4,7 +4,7 @@ You can choose one of the 5 following method to install WGDashboard
 
 > **For AmneziaWG Users**
 >
-> Starting from `v4.2.0`, WGDashboard support AmneziaWG, but since it has completely installation method than WireGuard, we decided **not to include** in our installation described below, you'll need to follow the AmneziaWG official documentation to install: [Link](https://github.com/amnezia-vpn/amneziawg-linux-kernel-module)
+> Starting from WGDashboard version:`v4.2.0`, there will be official support for AmneziaWG, but since it has a completely different installation method compared to WireGuard, we decided **not to include** it in our installation described below, you'll need to follow the AmneziaWG official documentation to install: [Link](https://github.com/amnezia-vpn/amneziawg-linux-kernel-module)
 
 
 ## Option 1: Docker Image
@@ -20,22 +20,6 @@ WGDashboard is now available as a **1-Click** app on DigitalOcean! **[Follow thi
 These commands are tested by myself in each operating system listed in [here](/Requirements#supported-operating-systems). It contains commands to install WireGuard, Git, Net Tools, and even Python on some OS.
 
 ### Ubuntu
-
-#### 20.04 (LTS)
-
-> The commands below included installation of Python `3.10` since Ubuntu `20.04` doesn't comes with it
-
-```shell
-sudo add-apt-repository ppa:deadsnakes/ppa -y && \
-sudo apt-get update -y && \
-sudo apt-get install python3.10 python3.10-distutils wireguard-tools net-tools --no-install-recommends -y && \
-git clone https://github.com/WGDashboard/WGDashboard.git && \
-cd WGDashboard/src && \
-chmod +x ./wgd.sh && \
-./wgd.sh install && \
-sudo echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf && \
-sudo sysctl -p
-```
 
 #### 22.04 (LTS), 24.04 (LTS) and 24.10
 
